@@ -52,7 +52,6 @@ ENV PATH="/app/.venv/bin:$PATH"
 
 ENV PYTHONPATH="/app:/app/env:$PYTHONPATH"
 
-RUN ln -s /app/env /app/web_vuln_triage
 
 ENV ENABLE_WEB_INTERFACE=true
 
